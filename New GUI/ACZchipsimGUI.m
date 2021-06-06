@@ -1,4 +1,4 @@
-function varargout = FullHamACZchipsim(varargin)
+function varargout = ACZchipsimGUI(varargin)
 % this is a GUI to visualize AC Zeeman energy amplitude near chip wires.
 % Microstrips are simulated with image / reverse currents
 % AC skin available
