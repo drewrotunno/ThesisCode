@@ -1,5 +1,5 @@
 ## Radiofrequency AC Zeeman Trapping for Neutral Atoms ## 
-I wanted to immortalize some of the good code I've written, so that other atom enthusiasts can benefit from it. 
+I wanted to immortalize some of the good code I've written and neat videos I've generated, so that other atom enthusiasts can benefit from it. 
 
 Files are separated by topic:
 
