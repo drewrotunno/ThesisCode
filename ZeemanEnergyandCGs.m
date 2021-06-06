@@ -1,6 +1,6 @@
-clear; 
-close all;
+clear; close all;
 % hamiltonian in the I/S basis to diagonalize better than the F basis. 
+% There's so many signs in here, there may be an error, but I did my best. 
 
 %% constants
 h    = 6.62606896e-34;  %Js
@@ -16,7 +16,7 @@ gi = -0.0009951414;
 %% parameters
 % B = [0:1:10000]*1e-4;   % Teslas
 B = [.001,12,.1:.1:.9,1:1:10000];   % Gausses
-diffBval = 52;         %check diff at 12 Gauss
+diffBval = 52;         %check diff at XX Gauss
 Bloc = find(B==diffBval);
 
 %% states
