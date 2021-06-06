@@ -15,7 +15,7 @@ We also show four Rabi map animations:
 A mathematica notebook that gave the analytic solutions to trap position, in Chapter 6. 
 
 ### Old GUI
-This file retains x-y B<sub>DC</sub> orientation, used for the pyramid trap. Only microwave solutions are exact in this GUI, but the RF doesn't consider the whole manifold, only one RF transition at a time. 
+This file retains x-y B<sub>DC</sub> orientation, used for the pyramid trap. Only microwave solutions are exact in this GUI, as the RF doesn't consider the whole manifold, only one RF transition at a time. 
 Users should run the .m file, rather than opening the figure or editing it in GUIDE.
 
 ### New GUI
