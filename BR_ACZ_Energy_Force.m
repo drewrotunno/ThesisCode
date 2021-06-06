@@ -12,8 +12,8 @@ B=20/.6998;
 
 %SI Unit
 % h_bar=2*pi;
-h= 6.62606896*10^-34;            % joules? 
-h_bar = h/(2*pi);            % joules? 
+h= 6.62606896*10^-34;            % joules
+h_bar = h/(2*pi);            % joules
 m_87 = 1.44316060*10^-25; % kg
 g = 9.8 ; %m/s/s
 
@@ -431,7 +431,7 @@ plot(20/(1.399624/2)*[1,1],[min(min(H_MHz(4,:)-H_MHz(6,1))),max(max(H_MHz(8,:)-H
 title('F=2 dc Zeeman', 'fontsize', tsz );ylabel('\Delta{}E_{DCZ} /h, MHz');
 grid on; axis tight; box on;%xlabel('Gauss');
 xticks([0:10:50]);yticks([-40:20:40]);
-text(1,-47, '(a2)', 'color', 'k', 'fontsize', 20 );
+% text(1,-47, '(a2)', 'color', 'k', 'fontsize', 20 );
 
 % g(5)=subplot(2,4,5);hold on;
 g(5)=axes('position', [1*buffx+0*eachx,1*buffy+0*eachy,eachx,eachy] );hold on;
@@ -448,7 +448,7 @@ plot(20/(1.399624/2)*[1,1],[min(min(H_MHz(4,:)-H_MHz(6,1))),max(max(H_MHz(8,:)-H
 title('F=1 dc Zeeman', 'fontsize', tsz );ylabel('\Delta{}E_{DCZ} /h, MHz'); xlabel('Gauss');
 grid on;axis tight;box on;
 xticks([0:10:50]);yticks([-40:20:40]);
-text(1,49, '(a1)', 'color', 'k', 'fontsize', 20 );
+% text(1,49, '(a1)', 'color', 'k', 'fontsize', 20 );
 
 % linkaxes([g], 'y');
 
@@ -491,7 +491,7 @@ title('Eigenstate Energies F=2', 'fontsize', tsz );
 xticks(smallxticks );yticks(smallyticks );
 % ylim([-1.5,1]); 
 xlim([19.5,20.5]);
-text(20.03,-1.25, '(b2)', 'color', 'k', 'fontsize', 20 );
+% text(20.03,-1.25, '(b2)', 'color', 'k', 'fontsize', 20 );
 
 
 % g(3) = subplot(2,4,3);hold on ;
@@ -514,7 +514,7 @@ title('AC Zeeman Energy F=2', 'fontsize', tsz );
 xticks(smallxticks );%yticks(smallyticks );
 ylim([-150,250]);
 xlim([19.5,20.5]);
-text(19.54,-100, '(c2)', 'color', 'k', 'fontsize', 20);
+% text(19.54,-100, '(c2)', 'color', 'k', 'fontsize', 20);
 
 % g(4) = subplot(2,4,4); hold on;
 g(4)=axes('position', [4*buffx+3*eachx,2*buffy+1*eachy+topup ,eachx,eachy] );hold on;
@@ -539,7 +539,7 @@ title('ACZ Force F=2', 'fontsize', tsz );
 % xticks(smallxticks );%yticks(smallyticks );
 ylim([-1.5,1]);
 xlim([19,21]);
-text(19.05,-1.2, '(d2)', 'color', 'k', 'fontsize', 20);
+% text(19.05,-1.2, '(d2)', 'color', 'k', 'fontsize', 20);
 
 % F=1
 % g(6)=subplot(2,4,6); hold on;
@@ -571,7 +571,7 @@ ylabel('E_{ACZ} /h, MHz');
 title('Eigenstate Energies F=1', 'fontsize', tsz );
 % linkaxes([g(1) g(3)], 'xy');
 ylim([-1.5,1]); xlim([19.5,20.5]);
-text(20.03,.75, '(b1)', 'color', 'k', 'fontsize', 20 );
+% text(20.03,.75, '(b1)', 'color', 'k', 'fontsize', 20 );
 
 % g(7) = subplot(2,4,7);hold on ;
 g(7)=axes('position', [3*buffx+2*eachx,1*buffy+0*eachy,eachx,eachy] );hold on;
@@ -591,7 +591,7 @@ title('AC Zeeman Energy F=1', 'fontsize', tsz );
 xticks(smallxticks );%yticks(smallyticks );
 ylim([-150,250]);
 xlim([19.5,20.5]);
-text(19.54,210, '(c1)', 'color', 'k', 'fontsize', 20 );
+% text(19.54,210, '(c1)', 'color', 'k', 'fontsize', 20 );
 
 
 
@@ -617,7 +617,7 @@ title('ACZ Force F=1', 'fontsize', tsz );
 % xticks(smallxticks );%yticks(smallyticks );
 ylim([-1.5,1]);
 xlim([19,21]);
-text(19.05,.75, '(d1)', 'color', 'k', 'fontsize', 20 );
+% text(19.05,.75, '(d1)', 'color', 'k', 'fontsize', 20 );
 
 
 set(g([3,4,7,8]), 'YAxisLocation','right');
