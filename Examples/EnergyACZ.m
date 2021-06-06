@@ -397,21 +397,21 @@ end
 
 %% plotting
 % figure('position', [200 100 1300 600], 'renderer', 'painter');
-tsz = 16;
+% tsz = 16;
 % topup = .02;
 % eachx = .175;
 % eachy = .39;
 % buffx = (1-4*eachx)/5;
 % buffy = (1-2*eachy)/3;
-state2 = {'|+ +\rangle';'| + \rangle';'| 0 \rangle';'| - \rangle';'|- -\rangle';};
-state1 = {'| +'' \rangle';'| 0'' \rangle';'| -'' \rangle';};
-bare2 = {'|-2,+2\omega\rangle';'|-1,+\omega\rangle';'|0,+0\omega\rangle';'|+1,-\omega\rangle';'|+2,-2\omega\rangle';};
-bare1 = {'|+1,+\omega\rangle';'|0,+0\omega\rangle';'|-1,-\omega\rangle'};
+% state2 = {'|+ +\rangle';'| + \rangle';'| 0 \rangle';'| - \rangle';'|- -\rangle';};
+% state1 = {'| +'' \rangle';'| 0'' \rangle';'| -'' \rangle';};
+% bare2 = {'|-2,+2\omega\rangle';'|-1,+\omega\rangle';'|0,+0\omega\rangle';'|+1,-\omega\rangle';'|+2,-2\omega\rangle';};
+% bare1 = {'|+1,+\omega\rangle';'|0,+0\omega\rangle';'|-1,-\omega\rangle'};
 
 % xoff = .01;
 % 
 % 
-states = {'|1,+1\rangle';'|1, 0\rangle';'|1,-1\rangle';'|2,-2\rangle';'|2,-1\rangle';'|2, 0\rangle';'|2,+1\rangle';'|2,+2\rangle';};
+% states = {'|1,+1\rangle';'|1, 0\rangle';'|1,-1\rangle';'|2,-2\rangle';'|2,-1\rangle';'|2, 0\rangle';'|2,+1\rangle';'|2,+2\rangle';};
 % colors = 'cgmrmgcb'; 
 colors = [[0,.75,1];...%c
           [0,.875,0];...%g
@@ -481,7 +481,7 @@ bigxticks = [18:.5:22];
 % for s=4:1:5
 %     plot(x2,E2(s,:)+off21, 'color',colors(3+s,:), 'linewidth', 1); 
 % end
-label2pos = [2010,2008,2253,2160,2010];
+% label2pos = [2010,2008,2253,2160,2010];
 % text(x2(label2pos(1)),(E2(5,label2pos(1))+off21)+.05, state2{1}, 'color', colors(8,:),'verticalalignment', 'bottom','horizontalalignment', 'center', 'fontsize', txsz );
 % text(x2(label2pos(2)),(E2(4,label2pos(2))+off21)+.02, state2{2}, 'color', colors(7,:),'verticalalignment', 'bottom','horizontalalignment', 'center', 'fontsize', txsz );
 % text(x2(label2pos(3)),(E2(3,label2pos(3))+off21), state2{3}, 'color', colors(6,:),'verticalalignment', 'top','horizontalalignment', 'left', 'fontsize', txsz );
@@ -509,7 +509,7 @@ end
 % text(x2(label2pos(1)),(E2(1,label2pos(1))-E2low(1,label2pos(1)))*1e3-20, state2{5}, 'color', colors(4,:),'verticalalignment', 'top','horizontalalignment', 'center', 'fontsize', txsz );
 % text(x2(label2pos(2)),(E2(2,label2pos(2))-E2low(2,label2pos(2)))*1e3, state2{4}, 'color', colors(5,:),'verticalalignment', 'top','horizontalalignment', 'left', 'fontsize', txsz );
 % text(x2(label2pos(3)),(E2(3,label2pos(3))-E2low(3,label2pos(3)))*1e3, state2{3}, 'color', colors(6,:),'verticalalignment', 'bottom','horizontalalignment', 'center', 'fontsize', txsz );
-text(x2(label2pos(4)),(E2(4,label2pos(4))-E2low(4,label2pos(4)))*1e3, state2{2}, 'color', colors(7,:),'verticalalignment', 'top','horizontalalignment', 'right', 'fontsize', txsz );
+% text(x2(label2pos(4)),(E2(4,label2pos(4))-E2low(4,label2pos(4)))*1e3, state2{2}, 'color', colors(7,:),'verticalalignment', 'top','horizontalalignment', 'right', 'fontsize', txsz );
 % text(x2(label2pos(5)),(E2(5,label2pos(5))-E2low(5,label2pos(5)))*1e3, state2{1}, 'color', colors(8,:),'verticalalignment', 'bottom','horizontalalignment', 'left', 'fontsize', txsz );
 % 
 hold off;grid on;box on;
