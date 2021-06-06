@@ -1,5 +1,5 @@
 ## Radiofrequency AC Zeeman Trapping for Neutral Atoms ## 
-I wanted to immortalize some of the good code I've written and neat videos I've generated, so that other atom enthusiasts can benefit from it. 
+I wanted to immortalize some of the good code I've written and neat videos I've generated, so that other atom enthusiasts can benefit from them. 
 
 Files are separated by topic:
 
@@ -28,7 +28,7 @@ In case it's useful in the future, I wanted to include full S11 spectrum up to 2
 These are a handful of MATLAB codes that went into figures, or are central to the results in some way. 
 They include:
 
-1) The Silvester AC skin simulation for arbitrary rectangular conductor, plus the B<sub>x</sub>-field in a line above it. I elect to animate the results somewhat, by playing the currents over a few cycles of phase. 
+1) The Silvester AC skin simulation for arbitrary rectangular conductor, plus the B<sub>x</sub>-field in a line above it. I elect to animate the results somewhat, by playing the data over a few cycles of phase. 
 2) Breit-Rabi and AC Zeeman energy curves and Force plots
 3) Just AC Zeeman energy
 4) Just DC Zeeman energy and Clebsch-Gordan coefficients, over a range of B
