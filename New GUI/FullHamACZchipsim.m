@@ -4,6 +4,7 @@ function varargout = FullHamACZchipsim(varargin)
 % AC skin available
 
 %% gravity points up (+y is down on the apparatus)
+%% it takes a minute to load the figure window the first time
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
