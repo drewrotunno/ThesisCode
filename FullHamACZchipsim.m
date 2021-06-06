@@ -3,6 +3,8 @@ function varargout = FullHamACZchipsim(varargin)
 % Microstrips are simulated with image / reverse currents
 % AC skin available
 
+%% gravity points up (+y is down on the apparatus)
+
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
