@@ -6,7 +6,7 @@ Files are separated by topic:
 ### Animations
 One animation accompanies Chapter 8, showing a complex representation in 3-D of the current evolution in a lateral wire. 
 We also show four Rabi map animations:
-1) Matching Appendix C, as it's meant to be
+1) Matching Appendix B, as it's meant to be
 2) time evolution of a Z-wire pulse
 3) time evolution of a U-wire pulse
 4) F=2 vs. F=1 for the same phase, displaying an anomaly
